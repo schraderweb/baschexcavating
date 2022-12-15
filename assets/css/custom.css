@@ -13,7 +13,7 @@ justify-content: space-between;
     right: 0;
 }
 .main-logo img{
-    width: 150px;
+    width: 250px;
 }
 
 .p-t40{
@@ -21,4 +21,89 @@ justify-content: space-between;
 }
 .list{
     display: flex;
+}
+iframe{
+    margin-bottom: 0;
+}
+.residential{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/sub_page_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.residential h1{
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.commercial{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/sub_page_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.commercial h1{
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.smallJobs{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/sub_page_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smallJobs h1{
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+#main-nav > ul > li > a{
+    font-size: 16px;
+    font-weight: 600;
+}
+#main-nav > ul > li > a:hover {
+    color: #d91303;
+}
+#main-nav .sub-menu li a{
+    font-size: 16px;
+    font-weight: 600;
+}
+#main-nav .sub-menu li a:hover{
+    color: #d91303;
+}
+#top-bar .top-bar-content i.fa {
+    color: #d91303;
+}
+#footer{
+    background-color: #c5c5c5;
+    color: black;
+}
+#footer p{
+    color: #333
+    
+    ;
+}
+
+#footer-widgets .widget.widget.widget_information ul li{
+    color: #333;
 }
