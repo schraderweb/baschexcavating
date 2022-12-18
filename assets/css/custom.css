@@ -153,3 +153,17 @@ iframe{
     display: flex;
     justify-content: center;
 }
+.payments{
+    display: flex;
+    flex-wrap: wrap;
+}
+.payments span{
+    width: 32%;
+}
+.payments svg {
+    width: 57px;
+}
+
+.wprt-testimonials.style-2 .position{
+    color: #000;
+}
