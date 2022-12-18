@@ -139,7 +139,7 @@ iframe{
 }
 .wprt-testimonials.style-2 .customer .inner{
     background-color: #fff;
-    opacity: 0.6;
+    /* opacity: 0.6; */
 }
 .wprt-testimonials.style-2 .whisper{
     color: #000;
